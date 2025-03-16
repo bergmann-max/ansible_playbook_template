@@ -1,0 +1,25 @@
+---
+# site.yml
+#
+# $ ansible-galaxy install -r requirements.yml
+# $ ansible-playbook site.yml -vv
+
+- name: Configure Web Servers
+  hosts: webservers
+  roles:
+    - web_role
+
+- name: Configure Database Servers
+  hosts: databases
+  roles:
+    - db_role
+
+- name: Configure Application Servers
+  hosts: application_servers
+  roles:
+    - app_role
+
+- name: Apply Special Configuration
+  hosts: special_servers
+  roles:
+    - special_role
