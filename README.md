@@ -1,6 +1,6 @@
 # Ansible playbook template
 
-![Ansible](https://img.shields.io/badge/usage-playbook--template-blue)
+![Ansible](https://img.shields.io/badge/ansible-playbook--template-blue)
 ![Platform](https://img.shields.io/badge/platform-Ubuntu-lightgrey)
 ![License](https://img.shields.io/badge/license-Unlicense-green)
 
