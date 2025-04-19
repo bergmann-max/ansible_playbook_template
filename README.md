@@ -26,7 +26,6 @@ ansible-project/
 ├── site.yml             # Main playbook that runs all roles
 ├── requirements.yml     # List of required roles and collections
 ├── group_vars/          # Variables for host groups
-│   └── all.yml          # Example: global vars for all hosts
 ├── host_vars/           # Variables for individual hosts
 ├── roles/               # Contains all roles for different server types
 └── README.md            # Project documentation
