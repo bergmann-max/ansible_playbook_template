@@ -23,7 +23,7 @@ roles:
 collections:
   # Ansible collections from Galaxy
   - name: community.general
-    version: 5.3.0
+    version: 12.5.0
   - name: community.docker
     version: 3.4.0
 
